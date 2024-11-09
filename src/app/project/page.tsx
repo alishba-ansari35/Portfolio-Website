@@ -2,7 +2,6 @@
 
 import Image from 'next/image';
 import React from 'react'
-import Typewriter from 'typewriter-effect';
 
 const Projectpage = () => {
   return (
@@ -11,13 +10,7 @@ const Projectpage = () => {
   
   <div className='bg-blue-200 md:w-full h-[200px] text-5xl'>
 
-<h1 className='text-center py-[80px]  font-semibold font-serif text-blue-950 text-decoration underline '><Typewriter
-options={{
- strings: ['My Projects.'],
- autoStart: true,
- loop: true,
-}}
-/></h1>
+<h1 className='text-center py-[80px]  font-semibold font-serif text-blue-950 text-decoration underline '>My Projects .</h1>
 </div>
 
 

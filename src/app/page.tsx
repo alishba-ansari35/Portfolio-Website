@@ -1,17 +1,9 @@
-"use client";
 
 import Image from 'next/image'
-import Typewriter from 'typewriter-effect';
 const Homepage = () => {
   return (
-    <div>
-
-    
- 
+    <div> 
       <main>
-        <title>Portfolio</title>
-
-
 {/* hero section  */}
 
 <section className="bg-blue-200 py-4 h-full body-font">
@@ -19,14 +11,10 @@ const Homepage = () => {
     <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start
      md:text-left mb-16 md:mb-0 items-center text-center">
       <h1 className="title-font sm:text-4xl text-3xl mb-4 font-semibold font-serif text-blue-950 text-decoration underline">
-
-<Typewriter
-  options={{
-    strings: ['Hello I,am Front-End Developer.', 'Hello I,Am Graphic Designer.'],
-    autoStart: true,
-    loop: true,
-  }}
-  /></h1>
+ 
+       Hello I Am Web Designer .
+      </h1>
+ 
 
       <p className="mb-8 leading-relaxed text-blue-900 font-serif text-xl">I am Alishba Khalil. I am student
          of Governer Sindh It Intiative.
@@ -55,15 +43,6 @@ const Homepage = () => {
    width={300}
    height={300}/>
  
-<h1 className="title-font sm:text-4xl text-xl mb-4  mt-5 font-semibold text-decoration underline font-serif text-blue-950">
-
-<Typewriter
-  options={{
-    strings: ['Web Designer.', 'UIUX Designer.', 'Digital Marketer.'],
-    autoStart: true,
-    loop: true,
-  }}
-  /></h1>
 
     </div>
   </div>
@@ -73,13 +52,7 @@ const Homepage = () => {
   
   <div className='bg-blue-950 md:w-full h-[200px] text-5xl'>
 
-   <h1 className='text-center py-[80px]  font-semibold font-serif text-white text-decoration underline '><Typewriter
-  options={{
-    strings: ['My Projects.'],
-    autoStart: true,
-    loop: true,
-  }}
-  /></h1>
+   <h1 className='text-center py-[80px]  font-semibold font-serif text-white text-decoration underline '>My Projects . </h1>
 
   </div>
 
@@ -157,13 +130,8 @@ const Homepage = () => {
 <section className="text-gray-600 body-font">
   <div className="container px-5 py-24 mx-auto">
     <div  className="text-center mb-20">
-    <h1 className='text-center py-[20px] text-[40px]  font-semibold font-serif text-white text-decoration underline '><Typewriter
-  options={{
-    strings: ['Projects Features & Commands. '],
-    autoStart: true,
-    loop: true,
-  }}
-  /></h1>
+    <h1 className='text-center py-[20px] text-[40px]  font-semibold font-serif text-white text-decoration underline '>
+      Projects Features & Commands .</h1>
       <p className="text-xl leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-slate-300">Explore the essential features of each typescript project and easily 
       run them using the npx commands provided below.</p>
     </div>
@@ -250,13 +218,7 @@ const Homepage = () => {
      <section className='bg-blue-950 md:h-[700px] my-24'>
       <div className='container px-2 py-8 mx-auto flex flex-wrap  justify-center items-start space-x-6 text-2xl '>
 
-      <h1 className='text-5xl py-[50px]  font-semibold font-serif text-white  text-decoration underline  '><Typewriter
-  options={{
-    strings: ['My Skills :'],
-    autoStart: true,
-    loop: true,
-  }}
-  /></h1>
+      <h1 className='text-5xl py-[50px]  font-semibold font-serif text-white  text-decoration underline  '>My Skills . </h1>
   </div>
 
 {/* <!-- Container for the skill cards --> */}

@@ -1,8 +1,8 @@
-"use client";
+
 
 import Image from 'next/image'
 import React from 'react'
-import Typewriter from 'typewriter-effect';
+
 const Aboutpage = () => {
   return (
     <div>
@@ -15,13 +15,7 @@ const Aboutpage = () => {
      md:text-left mb-16 md:mb-0 items-center text-center">
       <h1 className="title-font sm:text-4xl text-3xl mb-4 font-semibold font-serif text-blue-950">
 
-<Typewriter
-  options={{
-    strings: ['Hello I,am Front-End Developer.', 'Hello I,Am Graphic Designer.'],
-    autoStart: true,
-    loop: true,
-  }}
-  /></h1>
+ Hello I Am Web Designer .</h1>
 
       <p className="mb-8 leading-relaxed text-blue-900 font-serif text-xl">I am Alishba Khalil. I am student
          of Governer Sindh It Intiative.
